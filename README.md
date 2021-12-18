@@ -1,9 +1,9 @@
 # ZKB Converter
 
-Converts ZKB transaction CSVs (incl. details) to only include single transactions instead of grouped ones.
+Converts grouped transactions in a ZKB transaction CSV (incl. details) to single transactions.
 
 ## Usage
 
 ```
-go run main.go "data/export-detailed.csv"
+go run main.go "data/export-detailed.csv" > data/export.csv
 ```
