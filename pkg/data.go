@@ -6,6 +6,8 @@ import (
 	"strings"
 )
 
+const HEADER = `"Datum";"Buchungstext";"Whg";"Betrag Detail";"ZKB-Referenz";"Referenznummer";"Belastung CHF";"Gutschrift CHF";"Valuta";"Saldo CHF";"Zahlungszweck"`
+
 func CSVtoTransactions(data []byte) []Transaction {
 	var transactions []Transaction
 
@@ -63,7 +65,7 @@ func TransactionstoCSV(transactions []Transaction) []byte {
 		records = append(records, record)
 	}
 
-	var outputString string
+	outputString := fmt.Sprintf("%s\n", HEADER)
 
 	for _, record := range records {
 		outputString += fmt.Sprintf("%s\n", record)
