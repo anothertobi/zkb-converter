@@ -1,0 +1,7 @@
+"Datum";"Buchungstext";"Whg";"Betrag Detail";"ZKB-Referenz";"Referenznummer";"Belastung CHF";"Gutschrift CHF";"Valuta";"Saldo CHF";"Zahlungszweck"
+"03.12.2021";"Belastungen eBanking Mobile (2)";"";"";"A012B34567CDE89H";"";"300";"";"03.12.2021";"600";""
+"";"Swisscom";"CHF";"100";"";"";"";"";"";"";""
+"";"EKZ";"CHF";"200";"";"";"";"";"";"";""
+"02.12.2021";"Belastung eBill: Viseca Payment Services SA";"";"";"A012B34567CDE89G";"";"100";"";"02.12.2021";"900";""
+"";"";"";"";"";"";"";"";"";"";""
+"01.12.2021";"Einzahlung USD Noten";"";"";"A012B34567CDE89F";"";"";"500";"01.12.2021";"1000";""
